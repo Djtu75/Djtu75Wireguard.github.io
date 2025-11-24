@@ -1,7 +1,5 @@
 # Djtu75Wireguard.github.io
 
-**[Wireguard / Docker Compose Lab Guide]{.underline}**
-
 ## Step 1: Obtain a Cloud VM
 
 -   Go to <https://www.digitalocean.com/>
@@ -10,7 +8,8 @@
 
 -   Go to the left side of the screen and select first project. (this should be the default project, create a new one if needed)
 
-image here
+<img width="1918" height="1018" alt="Screenshot 2025-11-23 220644" src="https://github.com/user-attachments/assets/9f1e3dc7-9d88-4a5c-adef-7bb273c220a5" />
+
 
 -   Press the add a payment method button
 
@@ -18,11 +17,13 @@ image here
 
 -   Double check that in the top right by your profile it says "free trial active" like below
 
-image here
+<img width="600" height="394" alt="image" src="https://github.com/user-attachments/assets/f7e06307-dfe6-4218-9596-e8206b1b540d" />
+
 
 -   Press droplets on the left side of the screen and press create a droplet
 
-image here
+<img width="1917" height="1018" alt="Screenshot 2025-11-23 221321" src="https://github.com/user-attachments/assets/8fe066ce-c4d4-4c50-aeb7-6523e86a7517" />
+
 
 -   Choose an appropriate region
 
@@ -32,7 +33,8 @@ image here
 
 -   Cpu options regular and 6 dollars a month
 
-image here
+<img width="1611" height="697" alt="Screenshot 2025-11-23 222539" src="https://github.com/user-attachments/assets/4a7d935b-89dc-4c38-9787-6f6842a49549" />
+
 
 -   Choose the password authentication method and choose a password
 
@@ -44,7 +46,8 @@ image here
 
 -   Click Launch Droplet Console
 
-image here
+<img width="1918" height="907" alt="Screenshot 2025-11-23 232852" src="https://github.com/user-attachments/assets/fa2d02b5-b1f2-487e-bfb2-2ea1946ea15d" />
+
 
 ------------------------------------------------------------------------
 
@@ -171,10 +174,12 @@ docker logs -f wireguard_wireguard_1
 
 -   Here you can see my IP with wireguard disabled
 
-image here
+<img width="1918" height="1018" alt="Screenshot 2025-11-24 021634" src="https://github.com/user-attachments/assets/5d92a607-d5ab-4e47-b1b4-dc9f604ffa59" />
+
 
 -   And then with wireguard enabled
 
-image here
+<img width="1917" height="1022" alt="Screenshot 2025-11-24 021612" src="https://github.com/user-attachments/assets/5df1062e-b2a0-4016-8708-2570bb5e8112" />
+
 
 And that's all!
