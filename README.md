@@ -106,41 +106,41 @@ services:
 
         cap_add:
 
-            \- NET_ADMIN
+            - NET_ADMIN
 
-            \- SYS_MODULE
+            - SYS_MODULE
 
         environment:
 
-            \- PUID=1000
+            - PUID=1000
 
-            \- PGID=1000
+            - PGID=1000
 
-            \- TZ=Etc/UTC
+            - TZ=Etc/UTC
 
-            \- SERVERURL=auto
+            - SERVERURL=auto
 
-            \- SERVERPORT=51820
+            - SERVERPORT=51820
 
-            \- PEERS=2
+            - PEERS=2
 
-            \- PEERDNS=1.1.1.1
+            - PEERDNS=1.1.1.1
 
-            \- INTERNAL_SUBNET=10.13.13.0
+            - INTERNAL_SUBNET=10.13.13.0
 
         volumes:
 
-            \- ./config:/config
+            - ./config:/config
 
-            \- /lib/modules:/lib/modules:ro
+            - /lib/modules:/lib/modules:ro
 
         ports:
 
-            \- 51820:51820/udp
+            - 51820:51820/udp
 
         sysctls:
 
-            \- net.ipv4.conf.all.src_valid_mark=1
+            - net.ipv4.conf.all.src_valid_mark=1
 
         restart: unless-stopped
 ```
